@@ -139,6 +139,7 @@ glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DpSounderCanvas.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Echogram.hpp" />
     <ClCompile Include="shader.cpp" />
@@ -148,6 +149,9 @@ glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
   </ItemGroup>
   <ItemGroup>
     <None Include="glew32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DpSounderCanvas.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,6 +24,9 @@
     <ClCompile Include="Echogram.hpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="DpSounderCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="RenderPipeline.txt">
@@ -34,5 +37,10 @@
     <None Include="glew32.dll">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DpSounderCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
